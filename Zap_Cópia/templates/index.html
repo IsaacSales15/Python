@@ -93,7 +93,7 @@
 
     <script type="text/javascript">
         $(document).ready(function() {
-            var socket = io("10.0.0.10:5000")
+            var socket = io(localhost)
             socket.on("connect", function() {
                 console.log("conectou");
             });
