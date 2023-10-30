@@ -1,5 +1,5 @@
-t1 = int(input("Coloque o primeiro termo da P.A: "))
-t2 = int(input("Coloque o segundo termo da P.A: "))
+t1 = float(input("Coloque o primeiro termo da P.A: "))
+t2 = float(input("Coloque o segundo termo da P.A: "))
 
 r = t2 - t1
 
