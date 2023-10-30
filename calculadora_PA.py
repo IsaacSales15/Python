@@ -9,11 +9,11 @@ def calcular_Termos(t1, r):
         print(f)
     
 if r < 0:
-    print(f"A sua P.A é DECRESCENTE e os 10 primeiros termos são: ")
+    print(f"A sua P.A é DECRESCENTE, a razão é {r} e os 10 primeiros termos são: ")
     calcular_Termos(t1, r)
     
 elif r > 0:
-    print(f"A sua P.A é CRESCENTE e os 10 primeiros termos são: ")
+    print(f"A sua P.A é CRESCENTE, a razão é {r} e os 10 primeiros termos são: ")
     calcular_Termos(t1, r)
 
 else:
